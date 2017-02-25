@@ -6,7 +6,7 @@ SA Hansard
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/SAHansard)](https://cran.r-project.org/package=SAHansard)
 
-Wraps the SA Hansard API (<http://parliament-api-docs.readthedocs.io/en/latest/south-australia/>).
+Wraps the SA Hansard API (<http://parliament-api-docs.readthedocs.io/en/latest/south-australia/>), producing "tidy" `data.frame` objects or rendering the resulting HTML.
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 Installation
@@ -45,6 +45,8 @@ hansard_year(year = "2017")
 From these, a given Table of Contents can be obtained (for a given `docid` from `hansard_year`)
 
 ``` r
+# normally just evaluating hansard_toc is what you want,
+# here I only want to show limited results
 glimpse(hansard_toc(docid = 'HANSARD-10-19980'))
 #> <Hansard HANSARD-10-19980>
 #> Observations: 72
@@ -72,6 +74,10 @@ From these, a HTML fragment can be obtained (use the `pdfid` from `hansard_toc`)
 ------------------------------------------------------------------------
 
 ``` r
+# the print method for this result opens the 
+# rendered HTML fragment in the RStudio Viewer with 
+# CSS obtained from the Hansard site.
+# Here I am just printing the content
 hansard_fragment(pdfid = 'HANSARD-10-19961')$content
 ```
 
