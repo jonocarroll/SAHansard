@@ -1,0 +1,80 @@
+﻿/* HPS V2 Formatting */
+
+.SubjectHeading-H {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.HiddenSubproceeding-H, .HiddenProceeding-H, .HiddenSpeech-H, .HiddenQuestion-H, .HiddenAnswer-H {
+    display:none;
+}
+
+.MemberOfficeBearer-H, .MemberFirstTimeSpeaking-H, .MemberPortfolio-H, .TimeArticle-H, .MemberElectorate-H, .MemberLowerCase-H, .MemberUpperCase-H, .MemberOfficeBearer-H, .QONNum-H {
+    font-weight:bold;
+}
+
+/*    END HPS v2    *****/
+/************************/
+
+
+/**** HPS v3 Styling ****/
+
+.SubDebate-H {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.SubSubDebate-H {
+    text-align: center;
+    font-style: italic;
+}
+
+.HiddenTime-H, .HiddenEOQT-H, .Debate1-H, .Debate2-H {
+    display: none;
+}
+
+.GeneralBold-H, .MemberQuestion-H, .MemberAnswer-H, .MemberSpeech-H, .MemberUpper-H, .Time-H, .Electorate-H, .MinisterialTitles-H {
+    font-weight: bold;
+}
+
+.OfficeUpper-H, .OfficeSpeech-H, .OfficeLower-H, .OfficeAnswer-H, .OfficeQuestion-H, .MemberLower-H {
+    font-weight: bold;
+}
+
+.GeneralBoldSmall-H, .MemberQuestionSmall-H, .ElectorateSmall-H, .MinisterialTitlesSmall-H, .MemberAnswerSmall-H, .QONNum-H {
+    font-size: 8.5pt;
+    font-weight: bold;
+}
+
+.REPDate-H, .QONDate-H {
+    font-size: 8.5pt;
+    font-weight: normal !important;
+}
+
+.TableLeftAlignSmall-H {
+    font-size: 8.5pt;
+}
+
+.Smallc-H {
+    font-size: 8.5pt;
+}
+
+.Small-H {
+    font-size: 8.5pt;
+}
+
+.Bullet-H {    
+    display: list-item;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.SmallBullet-H {
+    font-size: 8.5pt;
+    display: list-item;
+    padding-left: 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+# SA Hansard
+
+![](http://www.parliament.sa.gov.au/_layouts/PII3.InternetStyles/LACQUER/hdrCrest.jpg)
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SAHansard)](https://cran.r-project.org/package=SAHansard)
+
+Wraps the SA Hansard API (http://parliament-api-docs.readthedocs.io/en/latest/south-australia/). 
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+suppressPackageStartupMessages(source("R/scrape.R"))
+```
+
+## Examples
+
+Obtain all SA Hansard records for a given year
+
+```{r, cache=TRUE}
+hansard_year(year = "2017")
+```
+
+From these, a given Table of Contents can be obtained
+
+```{r, cache=TRUE}
+glimpse(hansard_toc(docid = 'HANSARD-10-19980'))
+```
+
+From these, a HTML fragment can be obtained
+
+```{r, cache=TRUE, results='asis'}
+hansard_fragment(pdfid = 'HANSARD-10-19961')$content
+```

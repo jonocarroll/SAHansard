@@ -1,0 +1,13 @@
+<!DOCTYPE html >
+<html dir="ltr" lang="en-AU">
+<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=10" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" />
+    <title>Hansard From API</title>
+
+<link id="CSSRegistration2" rel="stylesheet" type="text/css" href="inst/css/kendo.common.min.css"/>
+<link id="CSSRegistration3" rel="stylesheet" type="text/css" href="inst/css/kendo.parliament.min.css"/>
+<link id="CSSRegistration4" rel="stylesheet" type="text/css" href="inst/css/hansard.search.css"/>
+<link id="CSSRegistration5" rel="stylesheet" type="text/css" href="inst/css/hansard.publish.css"/>
+<link id="CssRegistration1" rel="stylesheet" type="text/css" href="inst/css/corev15.css"/>
+</head>
+
+<body>

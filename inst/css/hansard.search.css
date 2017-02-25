@@ -1,0 +1,1253 @@
+﻿/***********************************/
+/* HANSARD DISPLAY STYLES - 2014   */
+/* Developed by: Jonathan Ruckert  */
+/* jonathan.ruckert@oconics.com    */
+/***********************************/
+
+.print-text
+{
+display: none;
+}
+
+.k-editor-toolbar {
+    text-align: center;
+}
+
+.k-state-selected a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.k-state-selected .k-grid-AddtoFilter {
+    color: black !important;
+}
+
+.k-state-selected a:visited {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.k-autocomplete
+{
+    width: 500px;
+    vertical-align: middle;
+}
+
+.hps-submitcr{background-image:url('/Style Library/Default/save.png');color:inherit;border-width:0}
+
+.hps-parl-bread {
+    height: 25px;
+    width: 100%;
+    float: left;
+}
+        
+/************************************/
+
+.filter-shown-icon {
+    background-position: 0 -64px !important; 
+}
+
+.filter-collapsed-icon {
+    height: 30px;
+    width:30px;
+    float: right;
+    position: relative;
+    margin-right: 35px;
+    background-image: url('Default/sprite_2x.png');
+    background-position: 0 -32px;
+    cursor: pointer;
+}
+
+.filter-collapse {
+    display: none;
+}
+span.k-tooltip {
+    color: red !important;
+}
+
+.hansard-search-box span.k-tooltip
+{
+    position: absolute;
+    display: block;
+    width: 180px;
+    padding: 0;
+    top: 36px;
+    left: -1px;
+    color: red !important;
+}
+
+.hansard-date-warning {
+    padding-top: 15px;
+}
+
+.hansard-date-range-error {
+    display: none;
+    color: red !important;
+}
+
+.hansard-date-range-overlap {
+    display: none;
+    color: red !important;
+}
+
+.hansard-date-range-wide {
+    display: none;
+    color: red !important;
+}
+
+/**** SEARCH RESULTS ****************/
+
+#searchIcon {
+    display: none !important;
+}
+
+/************************************/
+
+.ms-core-navigation {
+    float: left !important;
+}
+
+.hansard-search-Panel
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.hansard-bill-list select
+{
+    width: 550px;
+}
+
+/** HANSARD SEARCH RESULT ***********/
+
+.hansard-download {
+    height: 35px;
+    padding-top: 10px;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+.hansard-download-idx {
+    height: 88px;
+    padding-top: 10px;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+.hansard-toc-container {
+    
+}
+
+.hansard-download-text {
+    width: 140px;
+    float: left;    
+}
+
+.hansard-download-location {
+    float: left;
+    height: 35px;
+    width: 170px;
+}
+
+.hansard-icon {
+    background-image: url("Default/coloricons-sprite.png");
+    background-repeat: no-repeat;
+}
+
+.hansard-icon-pdf {
+    width: 60px;
+    cursor: pointer;
+    background-position: 0 -32px;
+    float: left;
+    padding-left: 20px;
+}
+
+.hansard-icon-xml {
+    cursor: pointer;
+    background-position: 0 -48px;
+    float: left;
+    width: 60px;
+    padding-left: 20px;
+}
+
+.hansard-toc-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    height: 45px;
+}
+
+.hansard-toc {
+    width: 100%;
+    float: left;
+    /*height: 65vh;*/
+}
+
+.hansard-toc .k-in {
+    white-space: normal;
+}
+
+.hansard-idx {
+    width: 100%;
+    float: left;
+}
+
+.hansard-idx .k-in {
+    white-space: normal;
+}
+
+.hansard-date {
+    width: 100%;
+    float: left;
+    /*height: 65vh;*/
+}
+
+.hansard-date .k-in {
+    white-space: normal;
+}
+
+/************************/
+
+.hansard-bill .hansard-sub-category
+{
+    
+}
+
+.hansard-member .hansard-member-list
+{
+   
+}
+
+.hansard-member .hansard-sub-category
+{
+   
+}
+
+.hansard-search-Term .hansard-search-Text
+{
+    float: left;
+    width: 164px;
+}
+
+.hansard-search-Term .hansard-search-Field input
+{
+    width: 480px;
+}
+
+.hansard-search-submit
+{
+    height: 35px;
+    margin-right: 50px;
+}
+
+.hansard-selected-filters label {
+    font-weight: bold;
+}
+
+.hansard-search-chamber label {
+    font-weight: bold;
+}
+
+.hansard-search-AdvC li {
+    padding-bottom: 10px;
+}
+
+.hansard-search-chamber {
+    padding-bottom: 5px;
+    border-bottom: 1px thin;
+}
+
+.hansard-search-restrict .hansard-title {
+    font-weight: bold;
+}
+.hansard-dd label {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.hansard-dd-browse-bills label {
+    padding-bottom: 5px;
+}
+
+
+.hansard-search-button {
+    float: right;
+}
+
+.hansard-search-button-second-reading {
+    float: right;
+}
+
+.hansard-search-button-second-readingBrowseBill {
+    
+     float: right;
+}
+
+
+.hansard-search-button-2 {
+    float: right;
+}
+
+.hansard-search-button-3 {
+    float: right;
+}
+
+.hansard-search-Area
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hansard-search-Title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+}
+
+.hansard-search-Adv
+{
+    
+}
+
+.hansard-search-Term
+{
+    height: 82px;
+}
+
+.hansard-search-Range
+{
+    
+}
+
+.hansard-search-Narrow
+{
+    
+}
+
+.hansard-search-cbox
+{
+    float: left;
+    width: 165px;
+}
+
+.hansard-search-cbox-text
+{
+    float: left;
+    width: 115px;
+}
+
+.hansard-dd
+{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.hansard-dd-browse-bills
+{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.hansard-search-range
+{
+    height: 35px;
+    padding-top: 5px;
+}
+
+.hansard-search-range .hansard-search-text
+{
+    width: 135px;
+}
+
+.hansard-search-date
+{
+    float: left;
+    padding-right: 25px;
+}
+
+.hansard-search-startvalidator {
+    float: left;
+    padding-right: 25px;
+}
+
+.hansard-search-endvalidator {
+    float: left;
+    padding-right: 25px;
+}
+
+.hansard-search-rb
+{
+    float: left;
+    padding-right: 5px;
+}
+
+.hansard-search-text
+{
+    float: left;
+    margin-right: 5px;
+}
+
+.hansard-search-text-browse-bills
+{
+    margin-right: 5px;
+}
+.hansard-search-cs
+{
+    width: 250px;
+}
+
+.hansard-search-cs-second-reading
+{
+    width: 250px;
+}
+
+.hansard-search-parl
+{
+    width: 600px;
+}
+
+.hansard-search-parl-second-reading
+{
+    width: 600px;
+}
+
+.hansard-search-chamber
+{
+}
+
+.hansard-restrict-chambers {
+   width: 100%;
+}
+
+.hansard-search-col1
+{
+    float: left;
+    width: 190px;
+}
+
+.hansard-title
+{
+    padding-bottom: 10px;
+}
+
+.hansard-fragment-header {
+    border-bottom: solid;
+    height: 50px;
+    width: 100%;
+}
+
+.fragment-MovePrevious {
+    height: 30px;
+    width:30px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+     margin-right: 30px;
+    margin-left: 0px;
+}
+.fragment-MovePreviousIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url("Default/sprite_2x.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: 0 -96px;
+    margin-right: 0px;
+    margin-left: 12px;
+}
+
+.fragment-MoveNext {
+    height: 30px;
+    width:30px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-left: 10px;
+    
+}
+
+.fragment-MoveNextIcon {
+    height: 30px;
+    width:30px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url('Default/sprite_2x.png');
+    background-position: 0 -32px;
+     
+}
+
+.fragment-return {
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.fragment-index-text {
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.fragment-send {
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.fragment-indexh {
+    float: left;
+}
+
+.fragment-print {
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.fragment-xml {
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.fragment-return-text {
+    font-weight: bold;
+}
+
+.fragment-print-text {
+    font-weight: bold;
+}
+
+.fragment-xml-text {
+    font-weight: bold;
+}
+
+.fragment-send-text {
+    font-weight: bold;
+}
+
+.hansard-loading {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.hansard-search-col2
+{
+    position: relative;
+    margin-left: 190px;
+}
+
+.hansard-or
+{
+    float: left;
+    width: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*****************************/
+/* SEARCH RESULTS FORMATTING */
+
+/* Column Layouts */
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+
+.colnext {
+    float:left;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+
+/* 2 Column (right menu) settings */
+.hansard-result-container {
+	background:#fff;		/* right column background colour */
+	width:99%;
+	/*overflow: hidden; */
+	
+	
+}
+.hansard-result-container .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.hansard-result-container .col1 {
+	width:21%;			/* right column content width (right column width minus left and right padding) */
+	left:26%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+}
+
+.hansard-result-container .col2 {
+	width:76%;			/* left column content width (left column width minus left and right padding) */
+	left:27%;			/* (right column width) plus (left column left padding) */
+}
+
+
+/* 2 Column (right menu) settings */
+.hansard-result-index {
+	background:#fff;		/* right column background colour */
+}
+.hansard-result-index .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.hansard-result-index .col1 {
+	width:21%;			/* right column content width (right column width minus left and right padding) */
+	left:26%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+}
+
+.hansard-result-index .col2 {
+	width:76%;			/* left column content width (left column width minus left and right padding) */
+	left:27%;			/* (right column width) plus (left column left padding) */
+}
+
+/* 2 Column (right menu) settings */
+.hansard-result-date {
+	background:#fff;		/* right column background colour */
+}
+.hansard-result-date .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.hansard-result-date .col1 {
+	width:21%;			/* right column content width (right column width minus left and right padding) */
+	left:26%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+}
+
+.hansard-result-date .col2 {
+	width:76%;			/* left column content width (left column width minus left and right padding) */
+	left:27%;	
+    		/* (right column width) plus (left column left padding) */
+}
+
+/* 2 Column (right menu) settings */
+.hansard-result-list {
+	background:#fff;		/* right column background colour */
+}
+.hansard-result-list .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.hansard-result-list .col1 {
+	width:21%;			/* right column content width (right column width minus left and right padding) */
+	left:26%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+}
+
+.hansard-result-list .col2 {
+				/* width:75%; left column content width (left column width minus left and right padding) */
+	left:27%;			/* (right column width) plus (left column left padding) */
+}
+
+.hpsheader
+{
+    padding-bottom: 12px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hpsheaderchamber
+{
+    font-size: 3em;
+    text-align:center;
+}
+
+.hpsheaderdate{
+    font-size: 2.3em;
+    text-align:center;
+}
+
+.hpsxscript
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hpsproceeding
+{
+    padding-bottom: 10px;
+}
+
+.hpsproceeding-title
+{
+    font-size: 2em;
+}
+
+.hpssubproceeding
+{
+
+}
+
+.hpssubproc-title
+{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.hps-question, .hps-speech, .hps-answer
+{
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/****************************/
+
+/***** DATES *******/
+.hansard-date-container {
+	background:#fff;		/* right column background colour */
+}
+.hansard-date-container .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.hansard-date-container .col1 {
+		width:31%;			/* left column content width (column width minus left and right padding) */
+		left:25%;			/* right column width plus left column left padding */
+	}
+	.hansard-date-container .col2 {
+		width:60%;			/* right column content width (column width minus left and right padding) */
+		left:27%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+	}
+
+/****************************/
+/*******    INDEX ***********/
+
+/* 2 Column (right menu) settings */
+.hansard-index-container {
+	background:#fff;		/* right column background colour */
+}
+.hansard-index-container .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.hansard-index-container .col1 {
+		width:31%;			/* left column content width (column width minus left and right padding) */
+		left:25%;			/* right column width plus left column left padding */
+	}
+	.hansard-index-container .col2 {
+		width:31%;			/* right column content width (column width minus left and right padding) */
+		left:27%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+	}
+
+    .hansard-index-container .col3 {
+		width:31%;			/* right column content width (column width minus left and right padding) */
+		left:29%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+	}
+
+.parliament-index {
+    padding-left: 0px;
+}
+
+.index-title {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.static-index-row {
+    height: 25px;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.dynamic-index-row {
+    height: 25px;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.static-index-row .hansard-icon-pdf {
+    width: 100%;
+    cursor: pointer;
+    background-position: 0 -32px;
+    float: left;
+    padding-left: 20px;
+}
+
+.dynamic-index-row .hansard-icon-xml {
+    cursor: pointer;
+    background-position: 0 -48px;
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.yearWrapper {
+    width:800px;
+    padding-top: 10px;
+}
+
+.date-disabled {
+    color: lightgrey;
+}
+
+.date-ha {
+    background-color: #115d13 !important;
+    color: white !important;
+}
+
+.date-ha-style {
+    background-color: #115d13 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-lc {
+    background-color: #c40912 !important;
+    color: white !important;
+}
+
+.date-lc-style {
+    background-color: #c40912 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-ea {
+    background-color: #c2aaa0 !important;
+    color: white !important;
+}
+
+.date-ea-style {
+    background-color: #c2aaa0 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-eb {
+    background-color: #9ca278 !important;
+    color: white !important;
+}
+
+.date-eb-style {
+    background-color: #9ca278 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-eca {
+    background-color: #98a4bf !important;
+}
+
+.date-eca-style {
+    background-color: #98a4bf !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+.date-ecb {
+    background-color: #98a4bf !important;
+}
+
+.date-ecb-style {
+    background-color: #98a4bf !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-ha-lc {
+   background-color: #396ba7 !important;
+   color: white !important;
+}
+
+.date-ha-lc-style {
+   background-color: #396ba7 !important;
+   color: white !important;
+   border-radius: 4px !important;
+   background-image: none !important;
+}
+
+.date-ea-eb {
+    background-color: #d4773e !important;
+    color: white !important;
+}
+
+.date-ea-eb-style {
+    background-color: #d4773e !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-eca-ecb {
+    background-color: #98a4bf !important;
+}
+
+.date-eca-ecb-style {
+    background-color: #98a4bf !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-multiple {
+    background-color: #E464E4 !important;
+    color: white !important;
+}
+
+.date-multiple-style {
+    background-color: #E464E4 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-unknown {
+    background-color: black !important;
+    color: white !important;
+}
+
+.date-unknown-style {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-uncorrected {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.date-uncorrected-style {
+    background-color: yellow !important;
+    color: black !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+}
+
+.date-event-name {
+    font-weight: bold;
+    float: left;
+}
+
+.date-event-download {
+    padding-right: 50px;
+    float: right;
+}
+
+.date-event-container {
+    width: 100%;
+    height: 35px;
+}
+
+.hps-searchResults {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.hps-uncorrected {
+    color: royalblue !important;
+}
+
+.hansard-year-legend {
+    width: 800px;
+    border: 1px solid;
+    height: 65px;
+}
+
+.legend-text {
+    padding-left: 5px;
+}
+
+.hansard-legend-title {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.hansard-legend-container {
+    padding-left: 10px;
+}
+
+.hansard-legend {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.hansard-year {
+    padding-top: 5px;
+    text-align: center;
+    width: 800px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.scheduler {
+    width: 800px;
+    text-align: center;
+    
+}
+
+.hansard-scheduler-year {
+    
+background-color: rgb(240, 240, 255);
+}
+
+.hansard-scheduler-year:hover 
+{ 
+background-color: rgb(181,181,181);
+} 
+
+.hansard-idx-header-title {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/****************************/
+
+/****************************/
+
+@media print {
+
+  .print-text
+   {
+   display: block;
+   font-weight: bold;
+   font-size: 15px;
+   text-align: center;
+   color: black;
+   }
+    .table { page-break-inside:auto }
+    .tr    { page-break-inside:avoid; page-break-after:auto }
+    .thead { display:table-header-group }
+    .tfoot { display:table-footer-group }
+
+    .hansard-toc-container {
+        display: none;
+    }
+    .hansard-fragment-header {
+        display: none;
+    }
+    .hps-parl-Header {
+        display: none;
+    }
+    .hps-parl-Menu {
+        display: none;
+    }
+    #ms-designer-ribbon {
+        display: none;
+    }
+    .hansard-result-container .col1 {
+        display : none;
+    }
+
+    .hansard-result-container .col2 {
+ width: 98% !important;
+	
+    }
+
+    .hansard-index-container .col1 {
+        display: none;
+    }
+
+    .hansard-index-container .col2 {
+         width: 98% !important;
+    }
+
+    .hansard-date-container {
+        display: none;
+    }
+
+    .hansard-idx-container {
+        display: none;
+    }
+
+    .hansard-result-index .col1 {
+        display : none;
+    }
+
+    .hansard-result-index .col2 {
+       width: 99% !important;
+    }
+
+    .hansard-result-date .col1 {
+        display : none;
+    }
+
+    .hansard-result-date .col2 {
+        width: 99% !important;
+    }
+}
+
+/***************************/
+
+span.deleted
+{
+	color: #FF9933 !important;
+	text-decoration:line-through;
+}
+
+span.undo
+{
+	background-color:White;
+	text-decoration:none;
+}
+
+span.inserted
+{
+	color: #FF9933 !important;
+	text-decoration:none;
+}
+
+span.replaced
+{
+	color: #FF9933 !important;
+	text-decoration:line-through;
+}
+
+span.small
+{
+	background-color:#E6DBFF;
+	text-decoration:none;
+}
+
+span.notsmall
+{
+	background-color:#DBF0F7;
+	text-decoration:none;
+}
+/*User border and text colors*/
+
+a {
+    color: black;
+}
+
+ins {
+    color: green !important;
+}
+
+del {
+    color: red !important;
+}
+
+ins.inserted,
+del.deleted
+{
+    color: #FF9933 !important;
+}
+
+/* Alerts */
+
+.dailyalert {
+    padding-left: 5px;
+    background-color: #E1EEFF;
+    width: 895px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.dailyalertheader {
+    width: 120px;
+    cursor: pointer;
+}
+
+.searchalert {
+    padding-left: 5px;
+    background-color: #E1EEFF;   
+}
+
+.hansard-alert-criteria {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+
+}
+
+.hansard-alert-field {
+    margin-left: 200px;
+    padding-bottom: 5px;
+}
+.hansard-alert-text {
+    
+    float: left;
+    padding-left: 10px;
+    width: 165px;
+}
+
+.searchalert-submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    Margin-left: 200px;
+}
+
+.dailyalert-submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+}
+
+
+
+
+.hansard-daily-alert {
+    padding-left: 5px;
+    background-color: #E1EEFF;
+    width: 795px;
+    margin-bottom: 10px;
+}
+
+.hansard-daily-alert-create {
+    /*  Uncomment to disable
+        display: none;*/
+
+}
+
+.hansard-alert-list {
+    display: list-item;
+    list-style-type: none;
+}
+
+.hansard-alert-header-title {
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 7px;
+}
+
+.hansard-unsub-header, .hansard-alert-header {
+    padding-bottom: 7px;
+}
