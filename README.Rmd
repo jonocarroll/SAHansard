@@ -21,6 +21,14 @@ knitr::opts_chunk$set(
 suppressPackageStartupMessages(source("R/scrape.R"))
 ```
 
+## Installation
+
+This package can be installed from GitHub using the `devtools::install_github` method:
+
+```{r, eval=FALSE}
+devtools::install_github("jonocarroll/SAHansard")
+```
+
 ## Examples
 
 Obtain all SA Hansard records for a given year
@@ -29,14 +37,17 @@ Obtain all SA Hansard records for a given year
 hansard_year(year = "2017")
 ```
 
-From these, a given Table of Contents can be obtained
+From these, a given Table of Contents can be obtained (for a given `docid` from `hansard_year`)
 
 ```{r, cache=TRUE}
 glimpse(hansard_toc(docid = 'HANSARD-10-19980'))
 ```
 
-From these, a HTML fragment can be obtained
+From these, a HTML fragment can be obtained (use the `pdfid` from `hansard_toc`)
 
+***
 ```{r, cache=TRUE, results='asis'}
 hansard_fragment(pdfid = 'HANSARD-10-19961')$content
 ```
+
+***
