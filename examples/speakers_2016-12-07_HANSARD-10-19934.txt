@@ -1,0 +1,25 @@
+
+================================
+           speaker         spoke
+--------------------------------
+1    The Hon. K.J. MAHER    12  
+2  The Hon. P. MALINAUSKAS  10  
+3   The Hon. I.K. HUNTER     4  
+4    The Hon. R.I. LUCAS     4  
+5  The Hon. T.J. STEPHENS    4  
+6      Committee Stage       3  
+7   The Hon. D.G.E. HOOD     3  
+8   The Hon. D.W. RIDGWAY    3  
+9   The Hon. J.M. GAZZOLA    3  
+10 The Hon. J.S.L. DAWKINS   3  
+11    The Hon. J.S. LEE      3  
+12  The Hon. T.A. FRANKS     3  
+13    The Hon. T.T. NGO      3  
+14  The Hon. M.C. PARNELL    2  
+15      Third Reading        2  
+16 The Hon. A.L. McLACHLAN   1  
+17  The Hon. J.A. DARLEY     1  
+18 The Hon. J.M.A. LENSINK   1  
+19  The Hon. K.L. VINCENT    1  
+20      The PRESIDENT        1  
+--------------------------------

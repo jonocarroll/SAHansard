@@ -168,7 +168,7 @@ hansard_fragment <- function(pdfid) {
 
 }
 
-#' @importFrom rstudio viewer
+#' @importFrom rstudioapi viewer
 #' @export
 #'
 print.hansard_fragment <- function(x, ...) {
@@ -179,7 +179,7 @@ print.hansard_fragment <- function(x, ...) {
     cat(header, sub("</fragment.text>", "",
                     sub("<fragment.text>\r\n  <body>\r\n    ", "", x$content)
                     ), "</html>", file = tf)
-    rstudio::viewer(tf)
+    rstudioapi::viewer(tf)
     invisible(x)
 }
 

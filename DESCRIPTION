@@ -13,7 +13,7 @@ Imports:
     tidyjson,
     jsonlite,
     dplyr,
-    rstudio
+    rstudioapi
 RoxygenNote: 5.0.1
 URL: https://github.com/jonocarroll/SAHansard
 BugReports: https://github.com/jonocarroll/SAHansard/issues
